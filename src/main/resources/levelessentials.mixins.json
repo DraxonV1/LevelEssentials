@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "asia.draxon.levelessentials.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerEntityMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "client": [
+    "DeathScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
